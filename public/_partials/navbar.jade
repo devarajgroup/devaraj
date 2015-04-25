@@ -5,21 +5,10 @@ nav(class='navbar navbar-default navbar-fixed-top')
         span(class="icon-bar")
         span(class="icon-bar")
         span(class="icon-bar")
-      a(class="navbar-brand" href="") Devaraj Lab
+      a(class="navbar-brand" href=path.url[0]) Devaraj Lab
     
     div(class="collapse navbar-collapse", id="sitepaths")
       ul(class="nav navbar-nav navbar-right")
-        li
-          a(href="") Home
-        li
-          a(href="research") Research
-        li
-          a(href="papers") Papers
-        li
-          a(href="people") People
-        li
-          a(href="news") News
-        li
-          a(href="outreach") Outreach
-        li
-          a(href="funding") Funding
+        for url, index in path.url
+          li 
+            a(href=url)= path.name[index]

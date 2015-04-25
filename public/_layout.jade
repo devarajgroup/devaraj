@@ -1,13 +1,15 @@
-
 doctype
 html
   head
-    title My Site
-    //Bootstrap
-    link(href="bootstrap/css/bootstrap.min.css", rel="stylesheet")
+    title UCSD Devaraj Lab
+    // Bootstrap -- Put all Bootstrap files here
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js")
 
   body
-      partial("navbar")
-      != yield
+    != partial("_partials/navbar", navbar)
+    != yield
+    != partial("_partials/footer")
+    
+    

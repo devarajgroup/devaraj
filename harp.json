@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "navbar": {
+      "path":{
+        "url": ["/", "/research", "/papers", "/people", "/news", "/outreach", "/funding"],
+        "name": ["Home", "Research", "Papers", "People", "News", "Outreach", "Funding"]
+      }
+    }
+  }
+}
