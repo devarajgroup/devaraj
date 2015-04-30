@@ -1,10 +1,334 @@
 {
   "globals": {
     "navbar": {
-      "path":{
-        "url": ["/", "/research", "/papers", "/people", "/news", "/outreach", "/funding"],
-        "name": ["Home", "Research", "Papers", "People", "News", "Outreach", "Funding"]
-      }
-    }
+      "paths": [{
+          "url": "/",
+          "name": "Home"
+        },
+        {
+          "url": "/research",
+          "name": "Research"
+        },
+        {
+          "url": "/papers",
+          "name": "Papers"
+        },
+        {
+          "url": "/people",
+          "name": "People"
+        },
+        {
+          "url": "/news",
+          "name": "News"
+        },
+        {
+          "url": "/outreach",
+          "name": "Outreach"
+        },
+        {
+          "url": "/funding",
+          "name": "Funding"
+        }]
+    },
+    "publications": [{
+        "authors": "A. K. Rudd, J. M. V. Cuevas, N. K. Devaraj",
+        "title": "SNAP-tag Reactive Lipid Anchors Enable Targeted and Spatiotemporally Controlled Localization of Proteins to Phospholipid Membranes",
+        "journal": "J. Am. Chem. Soc.",
+        "year": "2015",
+        "edition": "DOI: 10.1021/jacs.5b00040",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "H. Wu, B. T. Cisneros, C. M. Cole, N. K. Devaraj",
+        "title": "Bioorthogonal Tetrazine-Mediated Transfer Reactions Facilitate Reaction Turnover in the Nucleic Acid-Templated Detection of microRNA",
+        "journal": "J. Am. Chem. Soc.",
+        "year": "2014",
+        "edition": "136(52), 17942-17945",
+        "url": "http://pubs.acs.org/doi/abs/10.1021/ja510839r",
+        "cover_url": "http://pubs.acs.org/appl/literatum/publisher/achs/journals/content/jacsat/2014/jacsat.2014.136.issue-52/jacsat.2014.136.issue-52/20141231/jacsat.2014.136.issue-52.largecover.jpg",
+        "frontpage": true
+      },
+      {
+        "authors": "R. J. Brea, C. M. Cole, N. K. Devaraj",
+        "title": "In situ Vesicle Formation by Native Chemical Ligation",
+        "journal": "Angew. Chem. Int. Ed.",
+        "year": "2014",
+        "edition": "53 (51), 14102-14105",
+        "url": "http://onlinelibrary.wiley.com/doi/10.1002/anie.201408538/abstract",
+        "cover_url": "http://onlinelibrary.wiley.com/store/10.1002/anie.v53.51/asset/cover.gif?v=1&s=18a4ee635577bbdb2f368b72554f8e863f51dc1f",
+        "frontpage": true
+      },
+      {
+        "authors": "H. Wu, J. Yang, J. Šečkutė, N. K. Devaraj",
+        "title": "In-situ Synthesis of Alkenyl Tetrazines for Highly Fluorogenic Bioorthogonal Live Cell Imaging Probes",
+        "journal": "Angew. Chem. Int. Ed.",
+        "year": "2014",
+        "edition": "53 (23), 5805-5809",
+        "url": "http://onlinelibrary.wiley.com/doi/10.1002/anie.201400135/abstract",
+        "cover_url": "http://onlinelibrary.wiley.com/store/10.1002/anie.v53.23/asset/cover.gif?v=1&s=fc784a960f5828270a503008cc6c4d22aa0aa52e",
+        "frontpage": true
+      },
+      {
+        "authors": "B. Nichols, Z. Qin, J. Yang, D. R. Vera, N. K. Devaraj",
+        "title": "68Ga Chelating Bioorthogonal Tetrazine Polymers for the Multistep labeling of Cancer Biomarkers",
+        "journal": "Chem. Comm.",
+        "year": "2014",
+        "edition": "50 (40), 5215-5217",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J.Yang, Y. Liang, J. Šečkutė, K. Houk, N. K. Devaraj",
+        "title": "Synthesis and Reactivity Comparisons of 1-Methyl-3-Substituted Cyclopropene Minitags for Tetrazine Bioorthogonal Reactions,",
+        "journal": "Chem. Eur. J.",
+        "year": "2014",
+        "edition": "20(12), 3365-3375",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. Šečkutė, N. K. Devaraj",
+        "title": "Expanding Room for Tetrazine Ligations in the In Vivo Chemistry Toolbox,",
+        "journal": "Curr. Opin. Chem. Biol.",
+        "year": "2013",
+        "edition": "17(5), 761-767",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. Šečkutė, J. Yang, N. K. Devaraj",
+        "title": "Rapid Oligonucleotide-Templated Fluorogenic Tetrazine Ligations",
+        "journal": "Nucleic Acids Res.",
+        "year": "2013",
+        "edition": "2013, 41(15) e148",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "C. M. Cole, J. Yang, J. Seckute, N. K. Devaraj",
+        "title": "Fluorescent Live-Cell Imaging of Metabolically Incorporated Unnatural Cyclopropene Mannosamine Derivatives",
+        "journal": "ChemBioChem",
+        "year": "2013",
+        "edition": "14(2), 205-208",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj",
+        "title": "Advancing Tetrazine Bioorthogonal Reactions through the Development of New Synthetic Tools",
+        "journal": "Synlett",
+        "year": "2012",
+        "edition": "23(15), 2147-2152",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. Yang, J. Seckute, C. M. Cole, N. K. Devaraj",
+        "title": "Live-Cell Imaging of Cyclopropene Tags with Fluorogenic Tetrazine Cycloadditions",
+        "journal": "Angew. Chem. Int. Ed.",
+        "year": "2012",
+        "edition": "51(30), 7476-7479",
+        "url": "http://onlinelibrary.wiley.com/doi/10.1002/anie.201202122/abstract",
+        "cover_url": "http://onlinelibrary.wiley.com/store/10.1002/anie.201204825/asset/image_n/ncontent.gif?v=1&s=e0015d3fc4ca4fc0cddfc2ca51cdefa1b16b6887",
+        "frontpage": true
+      },
+      {
+        "authors": "J. Yang, M. R. Karver, W. Li, S. Sagu, N. K. Devaraj",
+        "title": "Metal-Catalyzed One-Pot Synthesis of Tetrazines Directly from Aliphatic Nitriles and Hydrazine",
+        "journal": "Angew. Chem. Int. Ed.",
+        "year": "2012",
+        "edition": "51(21), 5222-5225",
+        "url": "http://onlinelibrary.wiley.com/doi/10.1002/anie.201201117/abstract",
+        "cover_url": "http://onlinelibrary.wiley.com/store/10.1002/anie.201202064/asset/image_n/ncontent.gif?v=1&s=e676000e20df71f8f100a8842562a2ea53f8540b",
+        "frontpage": true
+      },
+      {
+        "authors": "I. Budin, N. K. Devaraj",
+        "title": "Membrane Assembly Driven by a Biomimetic Coupling Reaction",
+        "journal": "J. Am. Chem. Soc.",
+        "year": "2012",
+        "edition": "134(2), 751-753",
+        "url": "http://pubs.acs.org/doi/abs/10.1021/ja2076873",
+        "cover_url": "http://pubs.acs.org/subscribe/covers/jacsat/jacsat_v134i002.jpg?0.28715602215379477",
+        "frontpage": true
+      },
+      {
+        "authors": "N. K. Devaraj, G. M. Thurber, E. J. Keliher, B. Marinelli, R. Weissleder",
+        "title": "Reactive Polymer Enables Efficient In Vivo Chemistry",
+        "journal": "Proc. Nat. Acad. Sci. USA",
+        "year": "2012",
+        "edition": "109 (13), 4762-4767",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, R. Weissleder",
+        "title": "Biomedical Applications of Tetrazine Cycloadditions",
+        "journal": "Acc. Chem. Res.",
+        "year": "2011",
+        "edition": "44(9), 816-827",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. B. Haun, N. K. Devaraj, B. S. Marinelli, H. Lee, R. Weissleder",
+        "title": "Probing Intracellular Biomarkers and Mediators of Cell Activation Using Nanosensors and Bioorthogonal Chemistry",
+        "journal": "ACS Nano",
+        "year": "2011",
+        "edition": "5(4), 3204-3213",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. B. Haun, N. K. Devaraj, S. A. Hilderbrand, H. Lee, R. Weissleder",
+        "title": "Bioorthogonal Chemistry Amplifies Nanoparticle Binding and Enhances Signal Detection",
+        "journal": "Nature Nanotech",
+        "year": "2010",
+        "edition": "5(9), 660-5. PMID 20676091",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "H. S. Han, N. K. Devaraj, J. Lee, S. A. Hilderbrand, R. Weissleder, M. G. Bawendi",
+        "title": "Development of a Bioorthogonal and Highly Efficient Conjugation Method for Quantum Dots Using Tetrazine Norbornene Cycloaddition",
+        "journal": "J. Am. Chem. Soc.",
+        "year": "2010",
+        "edition": "132(23), 7838-9. PMID: 20481508",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, S. A. Hilderbrand, R.Upadhyay, R. Mazitschek, R. Weissleder",
+        "title": "Bioorthogonal Turn-On Probes for Imaging Small Molecules Inside Living Cells",
+        "journal": "Angew. Chem. Int. Ed.",
+        "year": "2010",
+        "edition": "49(16), 2869-2872. PMID: 20306505",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, R. Upadhyay, J. B. Haun, S. A. Hilderbrand, R. Weissleder",
+        "title": "Fast and Sensitive Pretargeted Labeling of Cancer Cells via Tetrazine/Trans-Cyclooctene Cycloaddition",
+        "journal": "Angew. Chem. Int. Ed.",
+        "year": "2009",
+        "edition": "48(38), 7013-7016. PMID: 19697389",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, E. J. Keliher, G. M. Thurber, M. Nahrendorf, R. Weissleder",
+        "title": "18F Labeled Nanoparticles for in-vivo PET-CT Imaging",
+        "journal": "Bioconjugate Chem.",
+        "year": "2009",
+        "edition": "20(2) 397-401. PMID: 19138113",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, R. Weissleder, S. A. Hildebrand",
+        "title": "Tetrazine-Based Cycloadditions: Application to Pretargeted Live Cell Labeling",
+        "journal": "Bioconjugate Chem.",
+        "year": "2008",
+        "edition": "19(12), 2297-2299. PMID:19053305",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, J. P. Collman",
+        "title": "Copper Catalyzed Azide-Alkyne Cycloadditions on Solid Surfaces: Applications and Future Directions",
+        "journal": "QSAR and Comb. Sci.",
+        "year": "2007",
+        "edition": "26(11), 1253-1260.",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. P. Collman; R. A. Decreau; Y. Yan; Y. Yang; N. K. Devaraj",
+        "title": "Synthesis of Cytochrome c Oxidase Models that can be Covalently Attached onto Electrode Surfaces",
+        "journal": "J. Org. Chem.",
+        "year": "2007",
+        "edition": "72(8), 2794-2802. PMID: 17375955",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. P. Collman, N. K. Devaraj, R. A. Decreau, Y. Yang, Y. Yan, W. Ebina, T. A. Eberspacher, C. E. D. Chidsey",
+        "title": "A Cytochrome c Oxidase Model Catalyzes the Four-Electron Reduction of Oxygen under Rate-Limiting Electron Flux",
+        "journal": "Science",
+        "year": "2007",
+        "edition": "315, 5818, 1565-1568. PMID: 17363671",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, R. A. Decreau, J. P. Collman, C. E. D. Chidsey",
+        "title": "Rate of Interfacial Electron Transfer Through the 1,2,3-Triazole ‘Click’ Linkage",
+        "journal": "J. Phys. Chem. B.",
+        "year": "2006",
+        "edition": "110(32), 15955-15962. PMID: 16898751",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. P. Collman, N.K. Devaraj, T. A. Eberspacher, C. E. D. Chidsey",
+        "title": "Mixed Azide-terminated Monolayers; A Platform for Modifying Electrode Surfaces",
+        "journal": "Langmuir",
+        "year": "2006",
+        "edition": "22(6), 2457-2464. PMID:16519441",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, P. H. Dinolfo, C. E. D. Chidsey, J. P. Collman",
+        "title": "Selective Functionalization of Independently Addressable Microelectrodes by Electrochemical Activation and Deactivation of a Coupling Catalyst",
+        "journal": "J. Am. Chem. Soc.",
+        "year": "2006",
+        "edition": "128 (6), 1794 -1795. PMID: 16464070",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "N. K. Devaraj, G. P. Miller, W. Ebina, B. Kakaradov, J. P. Collman, E. T. Kool, C. E. D. Chidsey",
+        "title": "Chemoselective Coupling of Oligonucleotides to Self Assembled Monolayers",
+        "journal": "J. Am. Chem. Soc.",
+        "year": "2005",
+        "edition": "127(24), 8600-8601. PMID: 15954758",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": "J. P. Collman, N. K. Devaraj, C. E. D. Chidsey",
+        "title": "Clicking Functionality onto Electrode Surfaces",
+        "journal": "Langmuir",
+        "year": "2004",
+        "edition": "(20), 1051-1053. PMID: 15803676",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      }]
   }
 }
