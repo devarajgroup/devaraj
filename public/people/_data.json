@@ -1,0 +1,111 @@
+{
+  "index": {
+    "faculty": {
+      "type": "Faculty",
+      "members": [{
+        "name": "Neal K. Devaraj",
+        "title": "Principal Investigator",
+        "email": "ndevaraj@ucsd.edu",
+        "picture": "./images/faculty/neal.png",
+        "title": "Principal Investigator",
+        "cv": ""
+      }]
+    },
+
+    "fellows": {
+      "type": "Postgraduate Fellows",
+      "members": [{
+        "name": "Roberto J. Brea",
+        "email": "rbreafernandez@ucsd.edu",
+        "picture": "./images/fellows/roberto.png",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "Fabian Ehret",
+        "email": "",
+        "picture": "./images/fellows/fabian.jpg",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "Seth Alexander",
+        "email": "",
+        "picture": "./images/fellows/seth.png",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "HaoXing Wu",
+        "email": "haw034@mail.ucsd.edu",
+        "picture": "./images/fellows/haoxing.png",
+        "title": "",
+        "cv": ""
+      }]
+    },
+
+    "grads":{
+      "type": "Graduate Students",
+      "members": [{
+        "name": "Brandon Cisneros",
+        "email": "brandon.cisneros@gmail.edu",
+        "picture": "./images/grads/brandon.png",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "Christian Cole",
+        "email": "cmcole@ucsd.edu",
+        "picture": "./images/grads/christian.png",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "Mike Hardy",
+        "email": "michaeldavidhardy@gmail.com",
+        "picture": "./images/grads/michael.png",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "Andrew Rudd",
+        "email": "arudd@ucsd.edu",
+        "picture": "./images/grads/andrew.png",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "Eric Zhou",
+        "email": "cyzhou@ucsd.edu",
+        "picture": "./images/grads/eric.png",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "Ahanjit Bhattacharya",
+        "email": "",
+        "picture": "./images/grads/ahanjit.jpg",
+        "title": "",
+        "cv": ""
+      }]
+    },
+
+    "undergrads": {
+      "type": "Undergraduates",
+      "members": [{
+        "name": "Vikram Shenoy",
+        "email": "",
+        "picture": "./images/undergrads/vikram.png",
+        "title": "",
+        "cv": ""
+      },
+      {
+        "name": "Natalya Ballard",
+        "email": "nballard@ucsd.edu",
+        "picture": "./images/undergrads/natalya.png",
+        "title": "",
+        "cv": ""
+      }]
+    }
+  }
+}
