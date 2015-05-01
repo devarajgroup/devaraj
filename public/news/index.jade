@@ -1,0 +1,17 @@
+- news = public.news._data.content.news
+mixin news(title, source, blurb, date, url)
+  .panel.panel-primary
+    .panel-heading
+        h5= title
+        h6= source
+    .panel-body
+      p= blurb
+      a(href= url).btn.btn-default Read more
+    .panel-footer= date
+
+link(rel="stylesheet" href="/css/news.css")  
+    
+.container
+  .col-xs-12.col-sm-offset-2.col-sm-8
+    for x in news
+      +news(x.title, x.source, x.blurb, x.date, x.url)

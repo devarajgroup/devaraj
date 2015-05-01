@@ -1,0 +1,16 @@
+- publications = public.papers._data.index.publications 
+mixin publication(url, url_cover, title, year, edition, journal)
+  .publication
+    a(href=url)
+      .pub-cover
+        img(src=url_cover, class="img-responsive")
+      .pub-cite
+        p!=  title + ", " + year + ", " + edition +  ", <em>" + journal + "</em>"
+
+h4(class="page-header frontpage-h1") SELECTED PUBLICATIONS
+for pub in publications
+  if pub.frontpage
+    +publication(pub.url, pub.cover_url, pub.title, pub.year, pub.edition, pub.journal)
+    
+a(class="btn btn-sm btn-primary btn-block index-button" href="/papers/" role="button").
+  See complete list

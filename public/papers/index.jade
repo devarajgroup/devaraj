@@ -1,8 +1,9 @@
 mixin publication(authors, title, journal, year, edition)
-      li  
-        p!= authors + ". \"" + title + ",\"" + " <strong><em>" + journal + "</em></strong>, " + year + ", " + edition + "."
+  li  
+    p!= authors + ". \"" + title + ",\"" + " <strong><em>" + journal + "</em></strong>, " + year + ", " + edition + "."
         
-link(rel="stylesheet" href="/css/papers.css")      
+link(rel="stylesheet" href="/css/papers.css")    
+- publications = public.papers._data.index.publications  
 
 .container
   .col-xs-8.col-xs-offset-2

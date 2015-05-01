@@ -1,11 +1,3 @@
-mixin publication(url, url_cover, title, year, edition, journal)
-    .publication
-      a(href=url)
-        .pub-cover
-          img(src=url_cover, class="img-responsive")
-        .pub-cite
-          p!=  title + ", " + year + ", " + edition +  ", <em>" + journal + "</em>"
-          
 .container-slick
   .slick
     for image in public.images.slider._contents
@@ -18,49 +10,17 @@ mixin publication(url, url_cover, title, year, edition, journal)
   
   // Latest news and about the lab
   .col-sm-4.col-xs-12
-    h4(class="page-header") LATEST NEWS
-    include:markdown /_markdown/latest-news.md
-    
-    h4(class="page-header frontpage-h1") ABOUT THE LAB
-
-    .about-text
-      p.
-        The Devaraj Lab at UCSD focuses on the design of chemoselective 
-        reactions for addressing problems in bottom-up synthetic biology 
-        and molecular imaging.
-
-    .about-pic
-      img(src="/people/images/faculty/neal.png" class="img-responsive img-rounded")
-      p(style="margin-bottom:0") Neal K. Devaraj, Ph.D 
-      p: em Principal Investigator
-      
-    a(class="btn btn-sm btn-primary btn-block index-button" href="joining/" role="button").
-      Want to join the Devaraj lab?
+  
+    != partial("/_partials/homepage/news")
+    != partial("/_partials/homepage/about")
     
   // Research in focus
   .col-sm-4.col-xs-12
-    h4(class="page-header frontpage-h1") RESEARCH: IN FOCUS
-
-    .embed-responsive.embed-responsive-16by9
-      iframe(src="https://player.vimeo.com/video/86545273")
-    p Tetrazine Reaction
-
-    .embed-responsive.embed-responsive-16by9
-      iframe(src="https://player.vimeo.com/video/86545274")
-    p Synthetic Vesicle Growth
-
-    a(class="btn btn-sm btn-primary btn-block" href="research/" role="button").
-      Read more
+    != partial("/_partials/homepage/research")
     
   // Selected publications
   .col-sm-4.col-xs-12
-    h4(class="page-header frontpage-h1") SELECTED PUBLICATIONS
-    for pub in publications
-      if pub.frontpage
-        +publication(pub.url, pub.cover_url, pub.title, pub.year, pub.edition, pub.journal)
-        
-    a(class="btn btn-sm btn-primary btn-block index-button" href="/papers/" role="button").
-      See complete list
+    != partial("/_partials/homepage/publications")
     
   
   

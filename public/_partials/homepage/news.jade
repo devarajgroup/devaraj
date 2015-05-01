@@ -1,0 +1,7 @@
+- news = public.news._data.content.news
+- count = 0
+- maxcount = 4
+h4(class="page-header") LATEST NEWS
+while count < maxcount
+  p!= "<strong>" + news[count].date + "</strong>: " + news[count].title
+  - count++

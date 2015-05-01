@@ -1,0 +1,62 @@
+{
+  "content":{
+    "news": [
+      {
+        "title": "C&E News Features our Recent Technique That Adds Proteins To Membranes At Specific Sites And Times",
+        "source": "Chemical & Engineering News",
+        "blurb": "Chemical and Engineering News highlighted our recent paper detailing a method that makes it possible to simultaneously link proteins covalently to membranes using both spatial and temporal control.",
+        "url": "http://cen.acs.org/articles/93/i16/Technique-Adds-Proteins-Membranes-Specific.html",
+        "date": "April 14th, 2015"
+      },
+      {
+        "title": "Postdoctoral Fellow Roberto Brea wins prestigious Human Frontier Science Program Cross Disciplinary Fellowship",
+        "source": "UC San Diego",
+        "blurb": "One of 10 highly competitive 3-year international cross disciplinary fellowships was awarded to postdoctoral fellow Roberto Brea. Roberto's will be working on his proposed project of Artificial life forms: confined biochemical processes in self-assembled non-natural cellular systems. Congratulations.",
+        "url": "http://www.hfsp.org/sites/www.hfsp.org/files/CDF_awardees_2014.pdf",
+        "date": "March 18, 2014"
+      },
+      {
+        "title": "Outreach Effort with CREATE Featured On UC San Diego Website",
+        "source": "UC San Diego",
+        "blurb": "Our Hands On Lab course with CREATE is discussed in this recent news release.This course was developed through Education Studies and saw, in the Fall of 2013,our group's graduate students and STEM undergraduates working together with 35Upward Bound students from Claremont, Mission Bay and Hoover high schools.",
+        "url": "http://ucsdnews.ucsd.edu/feature/a_lever_for_local_stem_education",
+        "date": "January 9, 2014"
+      },
+      {
+        "title": "Devaraj Lab selected to receive 2013 NSF CAREER award",
+        "source": "UC San Diego",
+        "blurb": "Neal Devaraj receives NSF CAREER Award to investigate the chemical origins of life.",
+        "url": "https://twitter.com/UCSDChemBiochem/status/379276081700032512",
+        "date": "Sept 15, 2013"
+      },
+      {
+        "title": "Devaraj Lab leads one of the 2013 MURI awards",
+        "source": "UC San Diego",
+        "blurb": "UC San Diego faculty members have garnered three of 15 Multidisciplinary University Research Initiative awards granted by the Department of Defense this year.The MURI program supports research by teams of investigators that encompass severaltraditional science and engineering disciplines to accelerate research progress.",
+        "url": "http://ucsdnews.ucsd.edu/pressrelease/three_uc_san_diego_professors_win_21m_from_dod_to_lead_innovative_collabora",
+        "date": "August 19, 2013"
+      },
+      {
+        "title": "Devaraj Lab selected to lead Multidisciplinary University Research Initiative on Hybrid Artificial Cells",
+        "source": "Department of Defense",
+        "blurb": "This project will involve several investigators over UC San Diego, University of Colorado Boulder, and Harvard. For more information, visit our MURI website here.",
+        "url": "http://www.defense.gov/releases/release.aspx?releaseid=16050",
+        "date": "May 31, 2013"
+      },
+      {
+        "title": "Streamlining Tetrazine Synthesis",
+        "source": "CE News",
+        "blurb": "Chemical and Engineering News features our recent work detailing thatLewis acid metal catalysts, most notably divalent nickel and zinc salts,can catalyze the one-pot synthesis of 1,2,4,5-tetrazines directly from commercially available starting materials. The reaction is a single step process with a high yield. This methodology should greatly improve the accessibility of tetrazines, allowing the synthesis of compounds previously unobtainable in usefulquantities, and lead to further exploration of their applications.",
+        "url": "http://cen.acs.org/signin.html?resource=/content/cen/articles/90/i18/Streamlining-Tetrazine-Synthesis",
+        "date": "April 24, 2012"
+      },
+      {
+        "title": "Artificial Membranes Featured on the Huffington Post",
+        "source": "Huffington Post",
+        "blurb": "Our development of synthetic membranes has been featured on the Huffington Post.",
+        "url": "http://www.huffingtonpost.com/2012/01/25/artificial-cell-membrane_n_1231545.html",
+        "date": "January 25, 2012"
+      }
+    ]
+  }
+}
