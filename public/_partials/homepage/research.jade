@@ -1,12 +1,13 @@
 h4(class="page-header frontpage-h1") RESEARCH: IN FOCUS
 
-.embed-responsive.embed-responsive-16by9
-  iframe(src="https://player.vimeo.com/video/86545273")
-p Tetrazine Reaction
-
-.embed-responsive.embed-responsive-16by9
-  iframe(src="https://player.vimeo.com/video/86545274")
-p Synthetic Vesicle Growth
+for video, index in public.videos._contents
+  - captions = ["Monitoring proteins on lipid microdomains", "Manipulating membrane curvature by protein modification", "De novo vesicle formation from thioesters"]
+  .embed-responsive.embed-responsive-16by9.videos
+    video(autoplay loop muted)
+      source(src="/videos/#{video}")
+  .video-caption
+    p= captions[index]
+    
 
 a(class="btn btn-sm btn-primary btn-block" href="research/" role="button").
   Read more

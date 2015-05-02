@@ -1,8 +1,8 @@
 .container-slick
   .slick
-    for image in public.images.slider._contents
+    for image in public.slider._contents
       .slick-slide
-        img(src="/images/slider/#{ image }" class="img-responsive slick-img")
+        img(src="/slider/#{ image }" class="img-responsive slick-img")
 
 .container
 
@@ -21,6 +21,7 @@
   // Selected publications
   .col-sm-4.col-xs-12
     != partial("/_partials/homepage/publications")
+    
     
   
   
