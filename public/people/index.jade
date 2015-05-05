@@ -1,6 +1,7 @@
 mixin employee(name, email, picture, title, cv)
   .profile.col-sm-3.col-xs-12
-    img(src= picture class="img-responsive img-rounded").people-pic
+    if picture != ""
+      img(src= picture class="img-responsive img-rounded").people-pic
     h5(style="margin-bottom:5px")= name
     p.namecard= title
     p.namecard.email= email
@@ -9,16 +10,21 @@ mixin employee(name, email, picture, title, cv)
 
 link(rel="stylesheet" href="/css/people.css")
 - data = public.people._data.index
-- count = 0
-- maxcount = 4
 
 block content
   .container.profile-container
     for person in data
+      - count = 0
       h3= person.type
       hr
-      .row
-        for mem in person.members
-          +employee(mem.name, mem.email, mem.picture, mem.title, mem.cv)
-          
       
+      // while all the members in the list have not been used yet,
+      // print the members in sets of 4, creating a new row whenever
+      // there is mod 4 = 0 members
+      
+      while count < person.members.length
+        .row
+          for slice in person.members.slice(count, count + 4)
+            - mem = person.members[count]
+            +employee(mem.name, mem.email, mem.picture, mem.title, mem.cv)
+            - count++

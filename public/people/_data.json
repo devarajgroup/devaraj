@@ -106,6 +106,31 @@
         "title": "",
         "cv": ""
       }]
+    },
+
+    "alumni": {
+      "type": "Alumni",
+      "members": [{
+        "name": "Jun Yang",
+        "email": "",
+        "picture": "",
+        "title": "School of Chemistry and Chemical Engineering, Shaanxi Normal University",
+        "cv": ""
+      },
+      {
+        "name": "Jolita Šečkutė",
+        "email": "",
+        "picture": "",
+        "title": "Scientist at Amgen in Drug Product Process Engineering",
+        "cv": ""
+      },
+      {
+        "name": "Brandon Nichols",
+        "email": "",
+        "picture": "",
+        "title": "Research Scientist at Isis Pharmaceuticals",
+        "cv": ""
+      }]
     }
   }
 }
