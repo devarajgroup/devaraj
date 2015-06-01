@@ -1,6 +1,16 @@
 {
   "index": {
     "publications": [{
+        "authors": "C. Y. Zhou, H. Wu, N. K. Devaraj",
+        "title": "Rapid Access to Phospholipid Analogs Using Thiol-Yne Chemistry",
+        "journal": "Chem. Sci.",
+        "year": "2015",
+        "edition": "DOI: 10.1039/C5SC00653H.",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
         "authors": "A. K. Rudd, J. M. V. Cuevas, N. K. Devaraj",
         "title": "SNAP-tag Reactive Lipid Anchors Enable Targeted and Spatiotemporally Controlled Localization of Proteins to Phospholipid Membranes",
         "journal": "J. Am. Chem. Soc.",
