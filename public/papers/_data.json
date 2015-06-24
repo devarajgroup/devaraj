@@ -1,6 +1,17 @@
 {
   "index": {
-    "publications": [{
+    "publications": [
+      {
+          "authors": "M. D. Hardy, J. Yang, J. Selimkhanov, C. M. Cole, L. S. Tsimring, N. K. Devaraj",
+          "title": "A Self-Reproducing Catalyst Drives Repeated Phospholipid Synthesis and Membrane Growth",
+          "journal": "Proc. Natl. Acad. Sci. USA",
+          "year": "2015",
+          "edition": "Early Edition",
+          "url": "",
+          "cover_url": "",
+          "frontpage": false
+        },
+      {
         "authors": "C. Y. Zhou, H. Wu, N. K. Devaraj",
         "title": "Rapid Access to Phospholipid Analogs Using Thiol-Yne Chemistry",
         "journal": "Chem. Sci.",
