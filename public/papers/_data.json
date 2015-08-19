@@ -2,15 +2,25 @@
   "index": {
     "publications": [
       {
-          "authors": "F. Ehret, H. Wu, S. C. Alexander, N. K. Devaraj",
-          "title": "Electrochemical Control of Rapid Bioorthogonal Tetrazine Ligations for Selective Functionalization of Microelectrodes",
-          "journal": "J. Am. Chem. Soc.",
-          "year": "2015",
-          "edition": "Just Accepted, DOI: 10.1021/jacs.5b03371",
-          "url": "",
-          "cover_url": "",
-          "frontpage": false
-        },
+        "authors": "C. M. Cole, R. J. Brea, Y. Kim, M. D. Hardy, J. Yang, N. K. Devaraj",
+        "title": "Spontaneous Reconstitution of Functional Transmembrane Proteins During Bioorthogonal Phospholipid Membrane Synthesis",
+        "journal": "Angew. Chem. Int. Ed.",
+        "year": "2015",
+        "edition": "In Press",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
+      {
+        "authors": " F. Ehret, H. Wu, S. C. Alexander, N. K. Devaraj",
+        "title": "Electrochemical Control of Rapid Bioorthogonal Tetrazine Ligations for Selective Functionalization of Microelectrodes",
+        "journal": "J. Am. Chem. Soc.",
+        "year": "2015",
+        "edition": "137 (28), 8876–8879",
+        "url": "",
+        "cover_url": "",
+        "frontpage": false
+      },
       {
           "authors": "M. D. Hardy, J. Yang, J. Selimkhanov, C. M. Cole, L. S. Tsimring, N. K. Devaraj",
           "title": "A Self-Reproducing Catalyst Drives Repeated Phospholipid Synthesis and Membrane Growth",
