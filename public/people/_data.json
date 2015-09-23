@@ -14,7 +14,15 @@
 
     "fellows": {
       "type": "Postgraduate Fellows",
-      "members": [{
+      "members": [
+      {
+        "name": "Henrike Niederholtmeyer",
+        "email": "",
+        "picture": "./images/fellows/henrike.jpg",
+        "title": "",
+        "cv": ""
+      },
+      {
         "name": "Roberto J. Brea",
         "email": "rbreafernandez@ucsd.edu",
         "picture": "./images/fellows/roberto.png",
