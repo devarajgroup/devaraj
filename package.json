@@ -1,0 +1,21 @@
+{
+  "name": "devaraj",
+  "version": "1.0.0",
+  "description": "Website for Professor Devaraj @ UCSD",
+  "main": "compile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "compile": "node compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devarajgroup/devaraj.git"
+  },
+  "author": "Jesse Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devarajgroup/devaraj/issues"
+  },
+  "homepage": "https://github.com/devarajgroup/devaraj"
+}

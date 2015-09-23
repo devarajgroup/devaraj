@@ -8,3 +8,6 @@
 .profile
 .ssh
 .viminfo
+
+node_modules
+*.log
