@@ -1,4 +1,4 @@
-###Funding
+### Funding
 ----------------------------------------
 Our group gratefully acknowledges the following funding sources
 

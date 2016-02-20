@@ -1,10 +1,10 @@
-###Research Overview
+### Research Overview
 
 As our molecular understanding of biology improves, new tools will be needed to further probe and understand life at the molecular length scale. Our interdisciplinary research group focuses on chemical biology with an emphasis on developing novel reactions for addressing questions in bottom-up synthetic biology and molecular imaging. Below we summarize some of our research interests.
 
 ------------------------------------------------------------------------------
 
-###Hybrid Artificial Cells
+### Hybrid Artificial Cells
 
 A major goal of our research program is to integrate synthetic and biological components to create a hybrid artificial cell. We propose to construct “minimal cells” in which only the necessary biochemical components are combined with a self-reproducing artificial chassis. These efforts will result in the development of a fully abiotic, dynamic “cell” with programmable genetic content. The proposed work will lay the groundwork for the development of scalable biomimetic systems that may one day surpass the functionality of fully biological constructs. Such advanced materials will find practical applications as bioreactors, sensors, and drug delivery vehicles.
 
@@ -30,7 +30,7 @@ There is tremendous interest in developing and refining methods to predictably p
 
 ------------------------------------------------------------------------------
 
-###Design of Imaging Probes
+### Design of Imaging Probes
 
 An emerging area is the use of tetrazine ligations for the development of in vivo imaging probes such as those used for positron emission tomography. We are developing applications involving tetrazine cycloadditions performed in live mice for pretargeted imaging of cancer cell biomarkers. Such technology would aid the primary diagnosis and screening of diseases such as prostate and colon cancer, for which current PET imaging agents are not particularly useful due to insufficient signal to background. Imaging agents often fail because of low target abundance coupled to the presence of high background. A large number of exquisite targeting ligands, such as monoclonal antibodies, have slow uptake and clearance kinetics, which is undesirable for in vivo imaging with commonly available short-lived PET radiolabels. It would therefore be of enormous scientific and clinical interest to develop a flexible platform technology for in vivo targeting of such ligands once they have bound to their partner. We and others have recently developed the use of tetrazine cycloadditions as a next generation rapid bioorthogonal targeting platform. This coupling technology offers unprecedented improvement over previous conjugation approaches with respect to its rapid speed, small size of reactive partners (<200 Da), and versatile biocompatibility.
 
